@@ -34,7 +34,7 @@ menuBtn.addEventListener('change', ()=>{
 })
 
 //scroll
-const enlacesHeader = document.querySelectorAll('header a');
+const enlacesHeader = document.querySelectorAll('header a', '#hero a');
     enlacesHeader.forEach(enlace => {
         enlace.addEventListener('click', function(event) {
             event.preventDefault(); // Evita que el enlace siga el href #

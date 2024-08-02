@@ -17,7 +17,7 @@
     box-sizing: border-box;
     font-family: var(--font);
 }
-
+html{scroll-behavior: smooth;}
 body{
     transition: .2s background;
     background-color: var(--bgcolor);
@@ -344,7 +344,7 @@ footer{
     .about .about-container,
     .contact .c-container{
         grid-template-columns: 1fr;
-        p{width: 100%;}
-        .contact-card{margin: 1em;}
+        p{width: 100%; margin: 1.5em 0;}
+        
     }
 }
