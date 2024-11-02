@@ -6,10 +6,12 @@ dark.addEventListener('change', ()=>{
         root.style.setProperty('--bgcolor', '')
         root.style.setProperty('--bgcolor2', '')
         root.style.setProperty('--color2', '')
+        root.style.setProperty('--navcolor', '')
         return;
     }
     root.style.setProperty('--bgcolor', '#1b1b1b')
     root.style.setProperty('--bgcolor2', '#2b2b2b')
+    root.style.setProperty('--navcolor', '#1b1b1bce')
     root.style.setProperty('--color2', '#f0f0f0')
 })
 
