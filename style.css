@@ -296,16 +296,16 @@ nav{
 }
 .contact{
     background-color: var(--bgcolor2);
+    a{text-decoration: none;}
     .c-container{
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        img{max-width: 60px;}
+        img{max-width: 40px;}
         p{width: 80%;}
         .tags{
-            display: grid;
+            display: flex;
             gap: 5px;
+            margin-top: 1em;
             .contact-card{
-                flex: 50%;
+                cursor: pointer;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -314,7 +314,13 @@ nav{
                 gap: 10px;
                 color: var(--color1);
                 text-decoration: none;
-               border: 1px solid;
+                border: 1px solid;
+                transition: .2s ease-in-out;
+
+                &:hover{
+                    transform: translateY(-2px);
+                    box-shadow: 0 0 5px 1px #c0002031;
+                }
             }
         }
     }
@@ -351,6 +357,8 @@ footer{
     .contact .c-container{
         grid-template-columns: 1fr;
         p{width: 100%; margin: 1.5em 0;}
-        
+    }
+    .contact .c-container .tags{
+        flex-wrap: wrap;
     }
 }

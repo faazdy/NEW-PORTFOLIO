@@ -49,3 +49,4 @@ const enlacesHeader = document.querySelectorAll('header a', '#hero .btns a');
             }
         });
     });
+
