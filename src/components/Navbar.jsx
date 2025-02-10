@@ -23,7 +23,7 @@ function Navbar() {
                 </label>
             </div>
             <div className="burger">
-                <label for="burger-btn">
+                <label htmlFor="burger-btn">
                     <img src="assets/icons/menu.png" alt="menu"/>
                 </label>
                 <input type="checkbox" name="burger-btn" id="burger-btn"/>

@@ -40,8 +40,8 @@ function App() {
                                         <div>
                                             <div className="stack">
                                                 {
-                                                    project.stack.map(icon => {
-                                                        return <img src={icon} alt="icon-stack" />
+                                                    project.stack.map((icon, index) => {
+                                                        return <img src={icon} alt="icon-stack" key={index}/>
                                                     })
                                                 }
                                             </div>
@@ -66,7 +66,7 @@ function App() {
                             {
                                 stackLanguages.map(icon => {
                                     return (
-                                        <div className="st-card">
+                                        <div className="st-card" key={icon.id}>
                                             <img src={icon.icon} alt="stack" />
                                             <span>{icon.nameTechnology}</span>
                                         </div>

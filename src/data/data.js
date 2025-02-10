@@ -17,7 +17,7 @@ import SQLICON from "/assets/icons/SQLICON.svg"
 
 export const projects = [
     {
-        id: 0,
+        id: 88,
         nameProject: 'UI Komponents',
         description: 'UI Komponents is a platform that showcases a collection of buttons, shadows, and cards for user interfaces. The website allows users to preview and copy the code for each component, making it easy to integrate them into any web development project.',
         stack:[React, Sass],
@@ -60,7 +60,7 @@ export const projects = [
 
 export const stackLanguages = [
     {
-        id: 0,
+        id: 55,
         nameTechnology: "HTML",
         icon: HTMLICON
     },
