@@ -1,8 +1,8 @@
 import React from 'react'
 import { projects } from './data/data'
 import { stackLanguages } from './data/data'
-
 import Navbar from './components/Navbar'
+
 function App() {
     return (
         <>
