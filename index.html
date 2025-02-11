@@ -16,6 +16,15 @@
     <meta name="twitter:title" content="Fazdev | Front-end WEB">
     <meta name="twitter:description" content="Leonardo's portfolio as a Front-end web developer. Showcasing projects, skills, and contact information.">
     <link rel="shortcut icon" href="assets/icons/ico.png" type="image/x-icon">
+
+    <script type="module" src="http://localhost:5173/@vite/client"></script>
+    <script type="module">
+        import RefreshRuntime from 'http://localhost:5173/@react-refresh'
+        RefreshRuntime.injectIntoGlobalHook(window)
+        window.$RefreshReg$ = () => {}
+        window.$RefreshSig$ = () => (type) => type
+        window.__vite_plugin_react_preamble_installed__ = true
+      </script>
     <title>Fazdev | Front-end WEB</title>
   </head>
   <body>
